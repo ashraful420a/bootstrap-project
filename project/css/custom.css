@@ -1,0 +1,40 @@
+.navbar-brand{
+    max-width: 140px;
+}
+.navbar-nav{
+    padding: 8p 20px;
+}
+.carousel-caption{
+   
+    bottom: 50%!important;
+    transform: translateY(50%);
+    z-index: 1;
+  
+}
+.carousel-inner .carousel-item{
+aspect-ratio: 16/8;
+object-fit: cover;
+}
+.carousel-inner .carousel-item {
+    position: relative;
+    
+}
+.carousel-inner .carousel-item::after {
+
+position: absolute;
+background-color: black;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+z-index: 0;
+}
+.card img{
+    aspect-ratio: 10/9;
+    object-fit: cover;
+}
+.custom-bg-01{
+    aspect-ratio: 1/1;
+    background-image: url(../images/1\ \(6\).jpg);
+    background-size: cover;
+}
